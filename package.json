@@ -1,0 +1,14 @@
+{
+    "name": "kopdrgkropdgkopdr",
+    "version": "1.0.0",
+    "description": "gdfgjidfogdio",
+    "dependencies": {
+        "http": "latest",
+        "http-proxy": "latest",
+        "express": "latest"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "private": true
+}
