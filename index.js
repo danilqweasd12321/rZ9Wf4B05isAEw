@@ -23,5 +23,6 @@ server.on('upgrade', function (req, socket, head) {
 
 // serve static content
 app.use('/', express.static(__dirname + "/public"));
-
+console.log('started')
 server.listen(8080);
+console.log('port 8080 binded')
