@@ -24,4 +24,4 @@ server.on('upgrade', function (req, socket, head) {
 // serve static content
 app.use('/', express.static(__dirname + "/public"));
 
-server.listen(80);
+server.listen(8080);
