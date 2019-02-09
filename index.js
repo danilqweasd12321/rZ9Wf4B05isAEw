@@ -8,7 +8,7 @@ var proxy = httpProxy.createProxyServer({ ws: true });
 var server = require('http').createServer(app);
 
 // proxy HTTP
-app.get('/owop', function(req, res) {
+app.get('/', function(req, res) {
   try{
     proxy.web(req, res, {target: "http://52.53.196.35:21"});
   } catch(e) {
